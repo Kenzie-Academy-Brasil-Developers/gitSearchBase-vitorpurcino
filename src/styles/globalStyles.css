@@ -8,5 +8,31 @@
   --color-grey-6: #a6a8a9;
   --color-grey-7: #ffffff;
   --color-alert: #c22554;
+  --color-fundo: #520F84;
+
   --font-primary: "Inter", sans-serif;
+
+  --title-0-size: 2.375rem;
+  --title-1-size: 2rem;
+  --title-2-size: 1.5rem;
+  
+  --text-1-size: 20px;
+  --text-2-size: 14px;
+  --text-3-size: 16px;
+  --text-4-size: 18px;
+
+  --weight-400: 400;
+  --weight-500: 500;
+  --weight-600: 600;
+  --weight-700: 700;
+  
+  --height-150: 150%;
+  --height-50: 3.125rem;
+  --height-29: 1.8125rem;
+  --height-24: 24px;
+  --height-18: 18px;
+  --height-17: 17px;
+
+  --border-radius-4: 0.25rem;
+  --border-radius-8: 0.5rem;
 }

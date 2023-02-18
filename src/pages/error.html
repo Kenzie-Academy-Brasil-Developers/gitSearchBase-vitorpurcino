@@ -1,22 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="pt-br">
 
-    <!-- FONTES -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Git Search - User Not Found</title>
-  </head>
-  <body>
+  <!-- FONTES -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="../styles/reset.css">
+  <link rel="stylesheet" href="../styles/globalStyles.css">
+  <link rel="stylesheet" href="../styles/error.css">
 
-    <script type="module" src="../scripts/error.js"></script>
-  </body>
+  <title>Git Search - User Not Found</title>
+</head>
+
+<body>
+  <main class="conteiner">
+    <div class="conteiner__erro">
+      <h1>Ooops!</h1>
+      <p>Não encontramos o usuário que você procurou, <span>vamos tentar novamente</span></p>
+      <button>Nova Busca</button>
+    </div>
+    <div class="conteiner__quadro">
+      <div class="quadro__exclamacao">
+        <img src="../assets/img/exclamacao.png" alt="">
+      </div>
+      <div class="quadro__fundo">
+      </div>
+    </div>
+  </main>
+  <script type="module" src="../scripts/error.js"></script>
+</body>
+
 </html>

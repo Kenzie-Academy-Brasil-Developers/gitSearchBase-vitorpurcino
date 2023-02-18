@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,11 +12,26 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/globalStyles.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
 
     <title>Git Search</title>
   </head>
   <body>
-
+    <main class="conteiner">
+      <div class="conteiner__text">
+        <h1 class="text text--h1">Git Search</h1>
+        <p class="text text--p">Encontre e se conecte com profissionais de forma rápida e fácil </p>
+      </div>
+      <div class="conteiner__search">
+        <h2 class="search search--h2">Procurar por um usuário</h2>
+        <span class="search search--span">Usuário Github</span>
+        <input class="search search--input" type="text" placeholder="Digite um usuário do github aqui...">
+        <button class="search search--button">Ver Perfil do Github</button>
+      </div>
+    </main>
     <script type="module" src="./src/scripts/index.js"></script>
   </body>
 </html>
