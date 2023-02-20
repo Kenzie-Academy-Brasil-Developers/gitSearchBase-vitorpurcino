@@ -18,6 +18,9 @@
 *::after {
     box-sizing: border-box;
 }
+html{
+	overflow-x: hidden;
+}
 
 /* Reapply the pointer cursor for anchor tags */
 a, button {

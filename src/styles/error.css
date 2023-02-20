@@ -35,7 +35,11 @@
     margin-bottom: 0.625rem;
 }
 
-.conteiner__erro button {
+.conteiner__erro span{
+    font-weight: var(--weight-600);
+}
+
+.conteiner__erro a {
     width: 21.375rem;
     height: 3.75rem;
     display: flex;
@@ -52,7 +56,7 @@
     cursor: pointer;
 }
 
-.conteiner__erro button:active {
+.conteiner__erro a:active {
     transform: scale(0.98);
 }
 
